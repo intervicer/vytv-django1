@@ -1,0 +1,709 @@
+.untitled-page.root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 1440px;
+  height: 2423px;
+  background-color: black;
+  overflow: hidden;
+}
+.untitled-page .rect {
+  position: absolute;
+  top: 693px;
+  right: 0px;
+  bottom: 949px;
+  left: 0px;
+  width: 1440px;
+  height: 781px;
+  background-color: black;
+}
+.untitled-page .rect1 {
+  position: absolute;
+  top: 1455px;
+  right: 0px;
+  bottom: 723px;
+  left: 0px;
+  width: 1440px;
+  height: 245px;
+  background-color: black;
+}
+.untitled-page .rect2 {
+  position: absolute;
+  top: 1701px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  width: 1440px;
+  height: 722px;
+  background-color: white;
+}
+.untitled-page .rect3 {
+  position: absolute;
+  top: 1544px;
+  right: 278px;
+  bottom: 807px;
+  left: 264px;
+  width: 898px;
+  height: 72px;
+  background-color: white;
+  border-radius: 9px 9px 9px 9px;
+}
+.untitled-page .medium_title {
+  position: absolute;
+  top: 1496px;
+  right: 0px;
+  bottom: 898px;
+  left: 264px;
+  width: 1176px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .medium_title1 {
+  position: absolute;
+  top: 1567px;
+  right: 972px;
+  bottom: 827px;
+  left: 284px;
+  width: 184px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title2 {
+  position: absolute;
+  top: 1566px;
+  right: 306px;
+  bottom: 828px;
+  left: 1014px;
+  width: 120px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: #828181;
+}
+.untitled-page .image {
+  position: absolute;
+  top: 1742px;
+  right: 1345px;
+  bottom: 616px;
+  left: 22px;
+  width: 73px;
+  height: 65px;
+}
+.untitled-page .title {
+  position: absolute;
+  top: 1755px;
+  right: 1138px;
+  bottom: 630px;
+  left: 124px;
+  width: 178px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title1 {
+  position: absolute;
+  top: 1756px;
+  right: 573px;
+  bottom: 629px;
+  left: 752px;
+  width: 115px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title2 {
+  position: absolute;
+  top: 1755px;
+  right: 150px;
+  bottom: 630px;
+  left: 1104px;
+  width: 186px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title3 {
+  position: absolute;
+  top: 1755px;
+  right: 747px;
+  bottom: 630px;
+  left: 361px;
+  width: 332px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title3 {
+  position: absolute;
+  top: 1825px;
+  right: 1219px;
+  bottom: 570px;
+  left: 124px;
+  width: 97px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title31 {
+  position: absolute;
+  top: 1825px;
+  right: 898px;
+  bottom: 570px;
+  left: 361px;
+  width: 181px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title32 {
+  position: absolute;
+  top: 1885px;
+  right: 1002px;
+  bottom: 510px;
+  left: 361px;
+  width: 77px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title33 {
+  position: absolute;
+  top: 1825px;
+  right: 611px;
+  bottom: 570px;
+  left: 752px;
+  width: 77px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title34 {
+  position: absolute;
+  top: 1825px;
+  right: 246px;
+  bottom: 570px;
+  left: 1104px;
+  width: 90px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title35 {
+  position: absolute;
+  top: 1885px;
+  right: 204px;
+  bottom: 510px;
+  left: 1104px;
+  width: 132px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title36 {
+  position: absolute;
+  top: 1885px;
+  right: 557px;
+  bottom: 510px;
+  left: 752px;
+  width: 131px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title37 {
+  position: absolute;
+  top: 1945px;
+  right: 604px;
+  bottom: 450px;
+  left: 752px;
+  width: 84px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title38 {
+  position: absolute;
+  top: 1945px;
+  right: 231px;
+  bottom: 450px;
+  left: 1104px;
+  width: 105px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title39 {
+  position: absolute;
+  top: 2005px;
+  right: 259px;
+  bottom: 390px;
+  left: 1104px;
+  width: 77px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title310 {
+  position: absolute;
+  top: 2065px;
+  right: 226px;
+  bottom: 330px;
+  left: 1104px;
+  width: 110px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title311 {
+  position: absolute;
+  top: 2005px;
+  right: 621px;
+  bottom: 390px;
+  left: 752px;
+  width: 67px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title312 {
+  position: absolute;
+  top: 2065px;
+  right: 606px;
+  bottom: 330px;
+  left: 752px;
+  width: 82px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title313 {
+  position: absolute;
+  top: 2125px;
+  right: 426px;
+  bottom: 242px;
+  left: 752px;
+  width: 262px;
+  height: 56px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title314 {
+  position: absolute;
+  top: 1945px;
+  right: 955px;
+  bottom: 450px;
+  left: 361px;
+  width: 124px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title315 {
+  position: absolute;
+  top: 1885px;
+  right: 1247px;
+  bottom: 510px;
+  left: 124px;
+  width: 69px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title316 {
+  position: absolute;
+  top: 1945px;
+  right: 1210px;
+  bottom: 450px;
+  left: 124px;
+  width: 106px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title317 {
+  position: absolute;
+  top: 2005px;
+  right: 998px;
+  bottom: 390px;
+  left: 361px;
+  width: 81px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title318 {
+  position: absolute;
+  top: 2005px;
+  right: 1239px;
+  bottom: 390px;
+  left: 124px;
+  width: 77px;
+  height: 28px;
+  font: 600 24px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image1 {
+  position: absolute;
+  top: 2334px;
+  right: 1359px;
+  bottom: 43px;
+  left: 35px;
+  width: 46px;
+  height: 46px;
+}
+.untitled-page .medium_title11 {
+  position: absolute;
+  top: 2343px;
+  right: 1267px;
+  bottom: 51px;
+  left: 107px;
+  width: 66px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .image2 {
+  position: absolute;
+  top: 2305px;
+  right: 25px;
+  bottom: 24px;
+  left: 1265px;
+  width: 150px;
+  height: 94px;
+  border-radius: 4px 4px 4px 4px;
+}
+.untitled-page .rect4 {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 2346px;
+  left: 0px;
+  width: 1440px;
+  height: 77px;
+  background-color: white;
+}
+.untitled-page .image3 {
+  position: absolute;
+  top: 7px;
+  right: 1347px;
+  bottom: 2351px;
+  left: 20px;
+  width: 73px;
+  height: 65px;
+}
+.untitled-page .title4 {
+  position: absolute;
+  top: 18px;
+  right: 54px;
+  bottom: 2367px;
+  left: 1208px;
+  width: 178px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title5 {
+  position: absolute;
+  top: 18px;
+  right: 423px;
+  bottom: 2367px;
+  left: 905px;
+  width: 112px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title6 {
+  position: absolute;
+  top: 18px;
+  right: 274px;
+  bottom: 2367px;
+  left: 1066px;
+  width: 100px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title7 {
+  position: absolute;
+  top: 18px;
+  right: 395px;
+  bottom: 2367px;
+  left: 1036px;
+  width: 9px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .title8 {
+  position: absolute;
+  top: 20px;
+  right: 1140px;
+  bottom: 2365px;
+  left: 122px;
+  width: 178px;
+  height: 38px;
+  font: 700 32px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: black;
+}
+.untitled-page .medium_title4 {
+  position: absolute;
+  top: 100px;
+  right: 1353px;
+  bottom: 2294px;
+  left: 29px;
+  width: 58px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .medium_title5 {
+  position: absolute;
+  top: 100px;
+  right: 1238px;
+  bottom: 2294px;
+  left: 122px;
+  width: 80px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .medium_title6 {
+  position: absolute;
+  top: 100px;
+  right: 1079px;
+  bottom: 2294px;
+  left: 233px;
+  width: 128px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .medium_title7 {
+  position: absolute;
+  top: 100px;
+  right: 924px;
+  bottom: 2294px;
+  left: 392px;
+  width: 124px;
+  height: 29px;
+  font: 700 24px/1.2 "Inter", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .image31 {
+  position: absolute;
+  top: 78px;
+  right: 0px;
+  bottom: 1731px;
+  left: 792px;
+  width: 648px;
+  height: 614px;
+}
+.untitled-page .hero_title {
+  position: absolute;
+  top: 215px;
+  right: 409px;
+  bottom: 2058px;
+  left: 408px;
+  width: 623px;
+  height: 150px;
+  font: 700 64px/1.17 "Roboto", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .hero_title1 {
+  position: absolute;
+  top: 762px;
+  right: 536px;
+  bottom: 1586px;
+  left: 536px;
+  width: 368px;
+  height: 75px;
+  font: 700 64px/1.17 "Roboto", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .image4 {
+  position: absolute;
+  top: 934px;
+  right: 1203px;
+  bottom: 1404px;
+  left: 176px;
+  width: 61px;
+  height: 85px;
+}
+.untitled-page .highlight {
+  position: absolute;
+  top: 857px;
+  right: 464px;
+  bottom: 1528px;
+  left: 472px;
+  display: flex;
+  justify-content: center;
+  width: 504px;
+  height: 38px;
+  font: 700 16px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.untitled-page .highlight1 {
+  position: absolute;
+  top: 391px;
+  right: 518px;
+  bottom: 2013px;
+  left: 410px;
+  width: 504px;
+  height: 19px;
+  font: 700 16px/1.18 "Roboto", Helvetica, Arial, serif;
+  color: white;
+}
+.untitled-page .image5 {
+  position: absolute;
+  top: 934px;
+  right: 678px;
+  bottom: 1404px;
+  left: 677px;
+  width: 85px;
+  height: 85px;
+}
+.untitled-page .image6 {
+  position: absolute;
+  top: 934px;
+  right: 176px;
+  bottom: 1404px;
+  left: 1178px;
+  width: 86px;
+  height: 85px;
+}
+.untitled-page .subtitle {
+  position: absolute;
+  top: 1112px;
+  right: 1087px;
+  bottom: 1242px;
+  left: 60px;
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 69px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.untitled-page .subtitle1 {
+  position: absolute;
+  top: 1112px;
+  right: 570px;
+  bottom: 1242px;
+  left: 577px;
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 69px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.untitled-page .subtitle2 {
+  position: absolute;
+  top: 1112px;
+  right: 73px;
+  bottom: 1219px;
+  left: 1074px;
+  display: flex;
+  justify-content: center;
+  width: 293px;
+  height: 92px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: white;
+  text-align: center;
+}
+.untitled-page .subtitle11 {
+  position: absolute;
+  top: 1042px;
+  right: 1129px;
+  bottom: 1335px;
+  left: 103px;
+  display: flex;
+  justify-content: center;
+  width: 208px;
+  height: 46px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: #37bc4d;
+  text-align: center;
+}
+.untitled-page .subtitle12 {
+  position: absolute;
+  top: 1048px;
+  right: 599px;
+  bottom: 1352px;
+  left: 607px;
+  display: flex;
+  justify-content: center;
+  width: 234px;
+  height: 23px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: #37bc4d;
+  text-align: center;
+}
+.untitled-page .subtitle13 {
+  position: absolute;
+  top: 1042px;
+  right: 102px;
+  bottom: 1335px;
+  left: 1104px;
+  display: flex;
+  justify-content: center;
+  width: 234px;
+  height: 46px;
+  font: 700 20px/1.14 "Roboto", Helvetica, Arial, serif;
+  color: #37bc4d;
+  text-align: center;
+}
+.untitled-page .rect5 {
+  position: absolute;
+  top: 1291px;
+  right: 493px;
+  bottom: 1027px;
+  left: 501px;
+  width: 446px;
+  height: 105px;
+  background-color: black;
+  border-radius: 19px 19px 19px 19px;
+  outline: 6px solid white;
+  outline-offset: -6px;
+}
+.untitled-page .hero_title111 {
+  position: absolute;
+  top: 1313px;
+  right: 566px;
+  bottom: 1054px;
+  left: 573px;
+  display: flex;
+  justify-content: center;
+  width: 301px;
+  height: 56px;
+  font: 700 48px/1.16 "Roboto", Helvetica, Arial, serif;
+  color: #37bc4d;
+  text-align: center;
+}
+.title4:hover ,.title5:hover, .title6:hover, .title8:hover ,
+.medium_title4:hover , .medium_title5:hover ,.medium_title6:hover, .medium_title7:hover, .image3:hover,.hero_title111:hover, .medium_title2:hover {
+    transform: scale(1.1);
+    
+    transition: transform 1s ease, box-shadow 1s ease; /* Додайте час переходу */
+    
+  }
+  .title4 ,.title5, .title6, .title8,
+  .medium_title4 , .medium_title5 ,.medium_title6, .medium_title7, .hero_title111{
+    text-decoration: none;
+  }
+
+  input[type="text"]#my-input {
+
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 24px;
+  }
