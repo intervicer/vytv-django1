@@ -12,17 +12,18 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Squada+One&display=swap" rel="stylesheet">
+    {% block link %}  {% endblock %}
+    <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
 
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
 
-    <title>My blog</title>
+    <title> {% block title %} title {% endblock %}</title>
 </head>
 <body>
     <div class="PageMain">
         <div class="HeaderBackground">
           <div class="HeaderContent">
 
-            <a href="#">
+            <a href="{% url 'home' %}">
                 <div class="LogoTitle">
                 <img src="{% static 'images/logo.svg' %}" alt="">
                 <p class="HeaderSection">My blog</p>
@@ -30,8 +31,8 @@
             </a>
 
             <div class="HeaderNames">
-                <a href="" class="HeaderSection" aria-current="page"> Blogs </a>
-                <a href="" class="HeaderSection" aria-current="page"> Categories </a>
+                <a href="{% url 'articles-list' %}" class="HeaderSection" aria-current="page"> Blogs </a>
+
             </div>
             <div class="SearchButton btn-group">
               <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -48,24 +49,11 @@
 
 <!--              </form>-->
             </div>
-
-<!--            <div href="#" class="btn-group">-->
-<!--              <button class="btn btn-secondary" id="burgerbutton" type="button" data-bs-toggle="dropdown" aria-expanded="false">-->
-<!--                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">-->
-<!--                  <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>-->
-<!--                </svg>-->
-<!--              </button>-->
-<!--              <ul class="dropdown-menu dropdown-menu-end">-->
-<!--                <li><a class="dropdown-item" href="">Main page</a></li>-->
-<!--                <li><a class="dropdown-item" href="">My blog</a></li>-->
-<!--                <li><a class="dropdown-item" href="">Categories</a></li>-->
-
-<!--              </ul>-->
-<!--            </div>-->
-
-
           </div>
         </div>
+        {% block content %} content {% endblock %}
+
+
 
         <div class="Footer">
       <div class="FooterBlocks">
