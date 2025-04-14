@@ -17,6 +17,11 @@ a {
     text-decoration: none;
 }
 
+p {
+    color: white;
+
+}
+
 #Gap {
     color: white;
 }
@@ -841,15 +846,6 @@ a {
 }
 
 
-/* @media (min-width: 1920px)  {
-
-    .PageM {
-        flex-direction: column;
-        align-items: center;
-    }
-
-} */
-
 
 
 .page-link {
@@ -864,94 +860,5 @@ a {
 
 .paginPanel {
     margin-left: 369px;
-
-}
-
-@media (min-width: 1920px)  {
-    .backgroundimg{
-        width:  1900px;
-        height: 900px;
-
-    }
-}
-
-@media (max-width: 1440px)  {
-    .backgroundimg{
-        width:  100%;
-        height: 90vh;
-
-    }
-}
-
-
-
-@media (min-width: 901px) and (max-width: 1140px) {
-
-    .HeaderNames {
-        gap: 110px;
-    }
-
-}
-
-@media (min-width: 771px) and (max-width: 900px) {
-    .FooterLinks {
-        font-size: 14px;
-    }
-    .HeaderSection {
-        font-size: 18px;
-    }
-    .FooterRightsText {
-        font-size: 10px;
-    }
-    .Footer {
-        height: 300px;
-        bottom: 0;
-    }
-    .FooterRightsText {
-        margin-top: 200px;
-    }
-    .HeaderNames {
-
-    }
-    .ContentName {
-        font-size: 70px;
-    }
-}
-
-
-@media (min-width: 771px) and (max-width: 770px) {
-    .FooterLinks {
-        font-size: 14px;
-    }
-    .HeaderSection {
-        font-size: 15px;
-    }
-    .FooterRightsText {
-        font-size: 10px;
-    }
-    .Footer {
-        height: 300px;
-        bottom: 0;
-    }
-    .FooterRightsText {
-        margin-top: 200px;
-    }
-    .HeaderNames {
-        gap: 12%;
-        left: 25%;
-    }
-    .ContentName {
-        font-size: 40px;
-    }
-
-    .UnderLine {
-        width: 100%;
-        height: 5px;
-        left: 0px;
-        top: 141px;
-        border-radius: 10px;
-        margin-bottom: 35px;
-        margin-top: 35px;
-    }
 
 }

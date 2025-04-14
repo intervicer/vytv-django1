@@ -58,10 +58,20 @@ class ArticleList(ListView):
 
 class ArticleCategoryList(ArticleList):
     template_name = "main/categories_page.html"
+    context_object_name = 'items'
 
     def get_queryset(self, *args, **kwargs):
-        articles = Article.objects.filter(category_slug_in=[self.kwargs['slug']]).distinct()
+        slug = self.kwargs['slug']
+        articles = Article.objects.filter(category__slug=slug).distinct()
         return articles
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        try:
+            context['category'] = Category.objects.get(slug=self.kwargs['slug'])
+        except:
+            pass
+        return context
 
 
 # def blog_view(request):

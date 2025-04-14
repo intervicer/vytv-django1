@@ -1,7 +1,45 @@
 {% extends "main/main_layout.html" %}
 {% load static %}
 
-{% block title %} Categories {% endblock %}
+{% block title %}
+    {% if category %}
+        {{ category.category|upper }} - Публікації
+    {% else %}
+        Категорія не знайдена
+    {% endif %}
+{% endblock %}
+
+{% block content %}
+
+    {% if category %}
+        <h1 style=" margin: 200px;">Публікації категорії: {{ category.category }}</h1>
+    {% else %}
+        <h1>Категорія не знайдена</h1>
+    {% endif %}
+
+    {% if items %}
+        {% for item in items %}
+            <div class="articles-row" style=" margin: 200px;">
+                <a href="{{ item.get_absolute_url }}">
+                    <h4>{{ item.title }}</h4>
+                </a>
+                <h5>
+                    {{ item.pub_date|date:" j E Y"|safe|linebreaks }}
+                </h5>
+                <p>
+                    {{ item.description|safe|escape|striptags|truncatewords_html:32 }}
+                </p>
+                <div class="container-image">
+                    {% if item.images.first %}
+                        <img class="img" src="{{ item.images.first.image.url }}" alt="">
+                    {% endif %}
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        {% endfor %}
+    {% else %}
+        <p style=" margin: 200px;">У цій категорії немає публікацій22.</p>
+    {% endif %}
 
 
-
+{% endblock %}

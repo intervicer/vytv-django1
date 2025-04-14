@@ -1,14 +1,15 @@
 {% extends "main/main_layout.html" %}
 {% load static %}
 
+
 {% block title %} 
-DETAIL (RENAME) 
+{{ item.title }} (RENAME)
 {% endblock %}
 
 {% block content %} 
 
 <div>
-    <ol class="breadcrumb">
+    <ol class="breadcrumb" style=" margin: 200px;">
         <li><a href="/">Головна</a></li>
         <li><a href="{% url 'articles-list' %}">Публікації</a></li>
         <li><a href="{{ item.category.get_absolute_url }}">{{ item.category|upper }}</a></li>
@@ -25,7 +26,7 @@ DETAIL (RENAME)
     <div>
         {{ item.description|escape|safe }}
         {% if item.images.all %}
-            {% include 'fotorama.html' with images=images %}
+            {% include 'main/fotorama.html' with images=images %}
         {% endif %}
     </div>
     <div class="clearfix"></div>

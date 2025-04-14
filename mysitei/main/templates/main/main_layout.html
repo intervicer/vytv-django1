@@ -17,6 +17,11 @@
 
 
     <title> {% block title %} title {% endblock %}</title>
+    <style>
+    p, h1, h2, h3, h5, div{
+        color: white;
+    }
+</style>
 </head>
 <body>
     <div class="PageMain">
@@ -32,7 +37,6 @@
 
             <div class="HeaderNames">
                 <a href="{% url 'articles-list' %}" class="HeaderSection" aria-current="page"> Blogs </a>
-
             </div>
             <div class="SearchButton btn-group">
               <button class="btn btn-secondary" type="button" data-bs-toggle="dropdown" aria-expanded="false">

@@ -1,5 +1,6 @@
 from django.contrib import admin
-from django.shortcuts import get_object_or_404
+from django.shortcuts import get_object_or_404, redirect
+from django.urls import reverse
 from .models import Article, ArticleImage, Category
 from .forms import ArticleImageForm
 
@@ -28,15 +29,14 @@ class ArticleImageInline(admin.TabularInline):
 
 
 class ArticleAdmin(admin.ModelAdmin):
-    list_display = ("title", "pub_date", "slug", "main_page")
+    list_display = ("title", "pub_date", "slug", "main_page", "category")
     inlines = [ArticleImageInline]
     multiupload_form = True
     multiupload_list = False
     prepopulated_fields = {"slug": ("title",)}
-    raw_id_fields = ("category",)
     fieldsets = (
         ("", {
-            "fields": ("pub_date", "title", "description", "main_page"),
+            "fields": ("pub_date", "title", "description", "main_page", "category"), # Переконалися, що 'category' є
         }),
         (("Додатково",), {
             "classes": ("grp-collapse grp-closed",),
@@ -48,5 +48,11 @@ class ArticleAdmin(admin.ModelAdmin):
         """Delete an image."""
         obj = get_object_or_404(ArticleImage, pk=pk)
         return obj.delete()
+
+    def save_model(self, request, obj, form, change):
+        super().save_model(request, obj, form, change)
+        if obj.category:
+            url = reverse('articles-categories-list', kwargs={'slug': obj.category.slug})
+            return redirect(url)
 
 admin.site.register(Article, ArticleAdmin)
