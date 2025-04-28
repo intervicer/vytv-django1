@@ -67,6 +67,5 @@ class ArticleImage(models.Model):
     def __str__(self):
         return self.title
 
-    @property
     def filename(self):
         return self.image.name.rsplit("/", 1)[-1]
