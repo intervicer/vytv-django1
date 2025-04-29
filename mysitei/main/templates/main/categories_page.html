@@ -1,4 +1,4 @@
-{% extends "main/main_layout.html" %}
+{% extends "main/base.html" %}
 {% load static %}
 
 {% block title %}
@@ -38,7 +38,7 @@
             </div>
         {% endfor %}
     {% else %}
-        <p style=" margin: 200px;">У цій категорії немає публікацій22.</p>
+        <p style=" margin: 200px;">У цій категорії немає публікацій.</p>
     {% endif %}
 
 

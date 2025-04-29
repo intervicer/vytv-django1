@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang=”uk”>
+{% load static %}
+<head>
+    <title>Blog</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <!-- Include Styles -->
+    <!DOCTYPE html>
+    <link rel="stylesheet" href="{% static 'main/css/bootstrap.min.css' %}">
+    <link type="text/css" href="{% static 'main/css/main.css' %}" rel="stylesheet">
+    <title>{% block title %} Page {% endblock %}</title>
+</head>
+<body>
+    <div class="container">
+        <a href="{% url 'home' %}"><h1 class="h1Title"> Персональний блог</h1></a>
+            {% block content %}
+    {% endblock %}
+    </div>
+    <!-- Javascripts Section -->
+
+    <script src="{% static 'main/js/jquery.js' %}"
+    crossorigin="anonymous"></script>
+    <script src="{% static 'main/js/bootstrap.min.js' %}" crossorigin="anonymous"></script>
+</body>
+</html>

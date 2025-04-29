@@ -1,11 +1,11 @@
-{% extends "main/main_layout.html" %}
+{% extends "main/base.html" %}
 {% load static %}
-
 {% block title %} Публікації {% endblock %}
-
 {% block content %}
+{% spaceless %}
 
-
+<h1>Публікації</h1>
+<br/>
 {% if category %} {{category}} {% endif %}
 <section class="articles_grid">
     {% for item in items %}
@@ -28,6 +28,6 @@
     </div>
     {% endfor %}
 </section>
+
+{% endspaceless %}
 {% endblock %}
-
-

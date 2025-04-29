@@ -1,24 +1,28 @@
-{% extends "main/main_layout.html" %}
+{% extends "main/base.html" %}
 {% load static %}
 {% block link %}
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 {% endblock %}
 {% block title %} Blog {% endblock %}
 
-
 {% block content %}
+{% spaceless %}
+
+<h2>Категорії</h2>
     {% if categories %}
-    {% for item in categories %}
-    <div>
+    <nav class="navbar navbar-default" role="navigator">
+    <div class="container">
+        {% for item in categories %}
         <a href="{{ item.get_absolute_url }}">
             <h4>{{ item.category }}</h4>
         </a>
+        {% endfor %}
     </div>
-    {% endfor %}
+    </nav>
     {% endif %}
     {% if articles %}
     {% for item in articles %}
-    <div>
+    <div class="article-block">
         <a href="{{ item.get_absolute_url }}">
             <h4>{{ item.title }}</h4>
         </a>
@@ -34,6 +38,7 @@
     <a href="{% url 'articles-list' %}">
         <h4>Всі публікації</h4>
     </a>
+{% endspaceless %}
 {% endblock %}
 
 
